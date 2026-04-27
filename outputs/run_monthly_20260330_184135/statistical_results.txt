@@ -1,0 +1,29 @@
+Initializing run. Outputs will be saved to: outputs/run_monthly_20260330_184135
+
+1. Loading Datasets...
+2. Processing and Aggregating Enforcement Data (Monthly)...
+3. Formatting Budget Data...
+4. Merging Financials with Enforcement Outcomes...
+
+--- MASTER ANALYSIS DATAFRAME (First 5 Rows) ---
+   YearMonth    FY  Enforcement and Removal Operations  Total_Arrests
+0 1989-09-01  1989                                 NaN            0.0
+1 1993-05-01  1993                                 NaN            0.0
+2 1994-11-01  1995                                 NaN            0.0
+3 2004-12-01  2005                                 NaN            0.0
+4 2007-12-01  2008                                 NaN            0.0
+
+5. Generating and Saving Visualizations...
+-> Graph saved successfully to outputs/run_monthly_20260330_184135/monthly_budget_vs_arrests.png
+
+6. Calculating Core Correlations (Same Period)...
+WARNING: Correlating highly variable monthly outcomes with static annual budgets causes severe autocorrelation. Interpret with extreme caution.
+
+Correlation Matrix:
+                                    Enforcement and Removal Operations  Custody Operations  Total_Arrests  Total_Detentions
+Enforcement and Removal Operations                            1.000000            0.999723      -0.234637         -0.365141
+Custody Operations                                            0.999723            1.000000      -0.235426         -0.366348
+Total_Arrests                                                -0.234637           -0.235426       1.000000          0.321710
+Total_Detentions                                             -0.365141           -0.366348       0.321710          1.000000
+
+--- Run Complete. All text data saved to outputs/run_monthly_20260330_184135/statistical_results.txt ---

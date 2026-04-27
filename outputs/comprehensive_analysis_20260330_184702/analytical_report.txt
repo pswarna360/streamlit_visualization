@@ -1,0 +1,30 @@
+Initializing Redesigned Analysis. Outputs routing to: outputs/comprehensive_analysis_20260330_184702
+
+1. Loading and Parsing High-Granularity Datasets...
+2. Cleaning and Time-Bounding Data (Oct 2019 - Present)...
+3. Generating Process Flow Timelines (Arrests -> Detentions -> Deportations)...
+4. Analyzing Geospatial Concentration...
+5. Analyzing Disparities and Case Demographics...
+6. Assessing Funding Impact on Outcomes...
+
+--- STATISTICAL & INSIGHT SUMMARY ---
+
+Top 5 AORs for Arrests:
+Apprehension AOR
+Miami Area of Responsibility          37459
+New Orleans Area of Responsibility    31546
+Dallas Area of Responsibility         31272
+Houston Area of Responsibility        30859
+Chicago Area of Responsibility        24920
+
+Top 5 Citizenship Countries Targeted:
+Citizenship Country
+MEXICO       145287
+GUATEMALA     48324
+HONDURAS      41125
+VENEZUELA     21959
+NICARAGUA     18124
+
+Overall Deportation Rate (Departures per Arrest): 62.62%
+
+Pipeline successfully generated 4 analytical images in: outputs/comprehensive_analysis_20260330_184702
